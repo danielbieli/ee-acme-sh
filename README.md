@@ -1,19 +1,19 @@
 # ee-acme-sh
 
-## Bash script to install Let's Encrypt SSL certificates automatically using acme.sh on servers running with EasyEngine
+Bash-Skript zur Installation von Let's Encrypt SSL-Zertifikaten automatisch mit acme.sh auf Servern, die mit EasyEngine laufen.
 
-![ee-acme-sh](https://raw.githubusercontent.com/VirtuBox/ee-acme-sh/master/ee-acme.png)
+- [GitHub](https://github.com/VirtuBox/ee-acme-sh)
 
 ## Features
 
-- Automated Installation of Let's Encrypt SSL certificates using [acme.sh](http://acme.sh)
-- Acme validation with standalone mode or Cloudflare DNS API
-- Domain, Subdomain & Wildcard SSL Certificates support
-- IPv6 Support
-- Generate ECDSA Certificates with ECC 384 Bits private key
-- Automated Certificates Renewal
-- Nginx mainline & stable release support
-- Cert-only mode available
+- Automatisierte Installation von Let's Encrypt SSL-Zertifikaten über [acme.sh](http://acme.sh)
+- Acme-Validierung mit Standalone-Modus oder Cloudflare DNS API
+- Unterstützung für Domain, Subdomain & Wildcard SSL-Zertifikate
+- IPv6-Unterstützung
+- Generieren von ECDSA-Zertifikaten mit dem privaten Schlüssel ECC 384 Bits
+- Automatisierte Zertifikatsverlängerung
+- Nginx Mainline & stabiler Release-Unterstützung
+- Nur Cert-Only-Modus verfügbar
 
 ## Installation
 
@@ -26,9 +26,9 @@ source .bashrc
 
 ## Update script
 
-Just run the installation command again
+Führen Sie einfach den Installationsbefehl erneut aus.
 
-## Usage
+## Verwendung
 
 ```bash
 Usage: ee-acme [type] <domain> [mode]
@@ -63,4 +63,4 @@ sub.domain.tld in standalone mode to secure easyengine backend on port 22222 :
 
 ## Limitations
 
-- Wildcard certs are only available with Cloudflare DNS API
+- Wildcard-Zertifikate sind nur mit der Cloudflare DNS API verfügbar.
